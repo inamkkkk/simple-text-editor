@@ -1,0 +1,18 @@
+# Files that should not be tracked by Git
+
+# General
+*.iml
+.idea/
+.DS_Store
+*.log
+*.swp
+*~
+
+# Flutter-specific
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugin-dependencies
+android/local.properties
+ios/Flutter/Generated.xcconfig
+build/
